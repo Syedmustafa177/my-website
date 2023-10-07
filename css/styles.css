@@ -1,9 +1,65 @@
+
+
 body{
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
     color: #40514E;
 }
+
+.seclang{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1133px;
+    margin: auto;
+}
+
+.secframe{
+
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1133px;
+    margin: auto;
+    flex-direction: row-reverse;
+
+}
+
+
+
+
+
+.navbar{
+    padding: 0;
+
+}
+
+.small-icon{
+    border-radius: 50%;
+    padding-right: 30px;
+}
+.container-fluid{
+    
+
+    padding-left: 30%;
+    background-color: #e0ebe8;
+
+
+  }
+
+.nav-link{
+    font-family: 'Merriweather', serif;
+    color: #11999E; 
+    font-size: 1.3rem;
+
+}
+ul{
+    text-align: left;
+}
+
 
 h1{
     font-size: 5.625rem;
@@ -13,17 +69,32 @@ h1{
 }
 
 h2{
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     font-family: 'Montserrat', sans-serif;
     color:  #66BFBF;
     font-weight: normal;
     padding: 10px;
+    text-align: center;
 
+}
+
+#cando{
+    color: #1e836c;
+    text-align: center;
+    font-size: 2.8em;
+    font-weight: 400;
+}
+
+#headpara{
+    line-height: 1;
 }
 
 h3{
     font-family: 'Montserrat', sans-serif;
     color: #11999E;
+}
+.h3lang{
+    padding-bottom: 25px;
 }
 
 p{
@@ -37,8 +108,9 @@ hr{
     margin: 100px auto;
 }
 div.top-continer{
+    /* max-width: 100%; */
 
-    background-color: #E4F9F5; 
+    background-color: #e0ebe8; 
     position: relative;
     padding-top: 100px;
 
@@ -49,13 +121,17 @@ div.top-continer{
     position: absolute;
     left: 250px;
     bottom: 300px;
+    height: auto;
+    transition: all 1s ease-in-out;
+
 }
 
 .top-cloud {    
      position: absolute;
      top: 40px;
-
+     height: auto;
      right: 300px;
+     transition: all 1s ease-in-out;
 
 }
 
@@ -78,6 +154,10 @@ div.top-continer{
     width: 25%;
     float: left;
     margin-right: 30px;
+    border-radius: 50%;
+    text-align: left;
+    margin: 3em 0 6em;
+    
 }
 
 .image2{
@@ -86,9 +166,11 @@ div.top-continer{
     margin-left: 30px;
 }
 
+
+
 .bottom-container{
 
-    background-color: #66BFBF;
+    background-color: #e0ebe8;
     padding: 50px 0 20px 0;
 }
 
@@ -149,8 +231,176 @@ a:hover{
   }
 
 .copyright{
-    color: #EAF6F6;
+    color: #66BFBF;
     font-size: 0.75rem;
     padding: 20px 0;
+}
+
+.mountain{
+    max-width: 100%; ;
+}
+
+
+
+/* Work!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+.w-cloud{
+   
+    transition: all 1s ease-in-out;
+    margin-right: 50%;
+}
+
+.wr-cloud{
+    
+    transition: all 1s ease-in-out;
+    margin-left: 50%;
+}
+
+
+
+.work-img{
+    
+    background-color: #e0ebe8;
+    margin: 0;
+}
+
+.title-flag{
+    padding-left: 85px;
+    padding-right: 100px;
+}
+
+
+.underc{
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media TABS starts */
+
+@media (max-width: 1202px) {
+
+    .navbar{
+        position: static;
+        padding: auto;
+        width: 130%;
+        
+    }
+
+    .bottom-cloud {
+        padding-bottom: 10px;
+        padding-left: 106%;
+        transform: translateX(-50%) translateY(50%);
+        transition: transform 0.10s ease-out;
+    }
+
+
+    .top-cloud {
+        
+        padding-right: 90%;
+        transform: translateX(50%) translateY(-50%);
+        transition: transform 0.10s ease-out;
+    }
+
+    .small-icon {
+      
+        width: 104px;
+
+        margin-left: 49px;
+    }
+
+
+
+}
+
+
+
+
+
+/* Media for mobiles starts */
+
+
+@media (max-width: 400px) {
+    .bottom-cloud {
+        padding-bottom: 166%;
+        padding-left: 35%;
+        transform: translateX(-50%) translateY(50%);
+        transition: transform 0.10s ease-out;
+    }
+
+    h1 {
+        margin-top: 20%;
+    }
+
+    .top-cloud {
+        
+        padding-right: 10%;
+        transform: translateX(50%) translateY(-50%);
+        transition: transform 0.10s ease-out;
+    }
+    .image1{
+        margin-left: 55px;
+        width: 39%;
+    }
+
+    .image2 {
+        margin-left: 55px;
+        width: 76px;
+        margin-right: 46px;}
+
+    h3 {
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
+    }
+    .navbar{
+        position: static;
+        
+        text-align: center;
+        
+    }
+    .container-fluid{
+        padding-left: 107px;
+    }
+
+        
+       
+    .small-icon {
+      
+        width: 104px;
+
+        margin-left: 49px;
+    }
+    
+   
+    
+
 }
 
