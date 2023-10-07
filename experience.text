@@ -1,0 +1,32 @@
+<div class="skills">
+    <h2>My Skills.</h2>
+    <div class="skill-row">
+      <img class="image1" src="images/leadership.png" alt="skill_image">
+      <h3>Experienced and Successful Team Leader</h3>
+      <p>In just two years of working at Wipro, I was promoted to the position of Team Leader.I ensure efficient and
+        accurate claim processing by managing and leading my team effectively. My ability to motivate and engage team
+        members has resulted in high-quality results.</p>
+    </div>
+    <div class="skill-row">
+      <img class="image2" src="images/coding.png" alt="imagesofcoding">
+
+      <h3>From Non-Technical to Tech Wizard</h3>
+      <p>I successfully transitioned from a non-technical background to a technical one, learning Python, JavaScript,
+        HTML, and CSS. With six successful projects under my belt, I effectively improved quality and saved company
+        resources. Additionally, I ensured the company met its Service Level Agreements (SLAs).</p>
+    </div>
+  </div>
+  <hr>
+  <div class="contact-me">
+    <h2>Get In Touch</h2>
+    <h3>start achieving success together!.</h3>
+    <p class="contact-message">Looking to exceed client expectations and improve the quality of your team's work? Look
+      no further! With expertise in Python programming and strong leadership skills, I am committed to delivering
+      high-quality results and fostering a positive work environment. As a successful team leader with a track record
+      of exceeding expectations, I have the skills to help you meet your goals. Whether you need help managing a team
+      or improving technical skills, I am here to help.</p>
+    <a class="btn" href="mailto:syedmustafa177@gmail.com">CONTACT ME</a>
+  </div>
+</div>
+
+
