@@ -39,7 +39,8 @@ body{
 
 .small-icon{
     border-radius: 50%;
-    padding-right: 30px;
+    /* padding-right: 30px; */
+    padding-left: 10%;
 }
 .container-fluid{
     
@@ -327,12 +328,12 @@ a:hover{
         transition: transform 0.10s ease-out;
     }
 
-    .small-icon {
+    /* .small-icon {
       
         width: 104px;
 
         margin-left: 49px;
-    }
+    } */
 
 
 
@@ -347,8 +348,8 @@ a:hover{
 
 @media (max-width: 400px) {
     .bottom-cloud {
-        padding-bottom: 166%;
-        padding-left: 35%;
+        padding-bottom: 200%;
+        padding-left: 10%;
         transform: translateX(-50%) translateY(50%);
         transition: transform 0.10s ease-out;
     }
@@ -382,7 +383,7 @@ a:hover{
     }
     .navbar{
         position: static;
-        
+        width: 100%;
         text-align: center;
         
     }
@@ -392,15 +393,48 @@ a:hover{
 
         
        
-    .small-icon {
+    /* .small-icon {
       
         width: 104px;
 
         margin-left: 49px;
+    } */
+    
+    body{
+        width: 100%;
+        margin: 0%;
+    }
+   
+    .seclang{
+        width: 100%;
+        margin: 0%;
+        align-items: left;
+        justify-content: left;
+        
+
+    }
+    .bottom-container{
+        width: 100%;
+        margin: 0%;
+
+
+
+    }
+
+    .secframe{
+
+        width: 100%;
+        margin: 0%;
+
+    }
+
+
+    .content-lang{
+        width: 10%;
+    
     }
     
-   
-    
+
 
 }
 
