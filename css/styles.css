@@ -346,7 +346,7 @@ a:hover{
 /* Media for mobiles starts */
 
 
-@media (max-width: 400px) {
+@media (max-width: 420px) {
     .bottom-cloud {
         padding-bottom: 200%;
         padding-left: 10%;
